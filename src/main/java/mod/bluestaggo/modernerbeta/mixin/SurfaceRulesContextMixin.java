@@ -4,7 +4,7 @@ import mod.bluestaggo.modernerbeta.api.level.chunk.ChunkProvider;
 import mod.bluestaggo.modernerbeta.imixin.ModernBetaSurfaceContext;
 import mod.bluestaggo.modernerbeta.imixin.ModernBetaSurfaceSystem;
 //? if >=26.3 {
-/*import net.minecraft.world.level.levelgen.material.MaterialRuleContext;
+/*import net.minecraft.world.level.levelgen.material.SurfaceRules.Context;
 import net.minecraft.world.level.levelgen.material.MaterialSystem;
 *///? } else {
 import net.minecraft.world.level.levelgen.NoiseChunk;

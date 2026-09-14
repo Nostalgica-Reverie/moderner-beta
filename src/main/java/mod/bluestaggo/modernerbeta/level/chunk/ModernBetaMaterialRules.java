@@ -22,9 +22,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.Noises;
 //? if >=26.3 {
-/*import net.minecraft.world.level.levelgen.material.MaterialRules;
-import net.minecraft.world.level.levelgen.material.condition.MaterialCondition;
-import net.minecraft.world.level.levelgen.material.rule.MaterialRule;
+/*import net.minecraft.world.level.levelgen.material.SurfaceRules;
+import net.minecraft.world.level.levelgen.material.condition.SurfaceRules.ConditionSource;
+import net.minecraft.world.level.levelgen.material.rule.SurfaceRules.RuleSource;
 *///? } else {
 import net.minecraft.world.level.levelgen.SurfaceRules;
 //? }

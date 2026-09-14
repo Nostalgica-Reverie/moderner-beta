@@ -13,7 +13,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
 //? if >=26.3
-//import net.minecraft.world.level.levelgen.material.rule.MaterialRule;
+//import net.minecraft.world.level.levelgen.material.rule.SurfaceRules.RuleSource;
 import net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver;
 //? if >=26.3 {
 /*import net.minecraft.world.level.levelgen.feature.Feature;

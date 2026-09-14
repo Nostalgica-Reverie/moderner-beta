@@ -14,9 +14,9 @@ import net.minecraft.util.StringRepresentable;
 //? if <26.2
 import net.minecraft.util.KeyDispatchDataCodec;
 //? if >=26.3 {
-/*import net.minecraft.world.level.levelgen.material.MaterialRuleContext;
-import net.minecraft.world.level.levelgen.material.condition.ConditionEvaluator;
-import net.minecraft.world.level.levelgen.material.condition.MaterialCondition;
+/*import net.minecraft.world.level.levelgen.material.SurfaceRules.Context;
+import net.minecraft.world.level.levelgen.material.condition.SurfaceRules.Condition;
+import net.minecraft.world.level.levelgen.material.condition.SurfaceRules.ConditionSource;
 *///? } else {
 import net.minecraft.world.level.levelgen.SurfaceRules;
 //? }
