@@ -47,7 +47,7 @@ mixin {
 }
 
 legacyForge {
-    val at = rootProject.file("forgelike/src/main/resources/META-INF/at-forge.cfg") //project.file("build/resources/main/META-INF/accesstransformer.cfg")
+    val at = stonecutter.process(file("../../src/main/resources/META-INF/at-forge.cfg"), "build/dev.cfg") //project.file("build/resources/main/META-INF/accesstransformer.cfg")
 
     accessTransformers.from(at.absolutePath)
     validateAccessTransformers = true
